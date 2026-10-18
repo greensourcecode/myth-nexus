@@ -64,9 +64,12 @@
 		user-select: none;
 	}
 
-		.canvas-app-progress {
+	/* Web page style for the HTML5 build (game.project html5.cssfile).
+   A copy of Defold's builtins/manifests/web/dark_theme.css with the loading bar in the menus'
+   gold (main/theme.lua SELECTED) on a dark brown track instead of blue on grey. */
+	.canvas-app-progress {
 		position: absolute;
-		background-color: #394046;
+		background-color: #2b2416;
 		height: 6px;
 		margin-top: -6px;
 		width: 100%;
@@ -76,7 +79,7 @@
 		font-size: 12px;
 		height: 6px;
 		color: rgb(255, 255, 255);
-		background-color: #1a72eb;
+		background-color: #d99e33;
 		text-align: center;
 		line-height: 20px;
 		transition: transform 1s ease;
