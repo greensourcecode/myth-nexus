@@ -237,7 +237,7 @@ enabled = 1
 settings = /liveupdate.settings
 
 [tilemap]
-max_count = 64
+max_count = 96
 max_tile_count = 65536
 
 [engine]
