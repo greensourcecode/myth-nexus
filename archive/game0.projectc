@@ -1,5 +1,5 @@
 [project]
-title = Myth Nexus
+title = Myth Warden
 version = 1.0
 publisher = 
 developer = 
@@ -8,7 +8,7 @@ write_log_file = 0
 minimum_log_level = 1
 compress_archive = 1
 dependencies_metadata = 0
-title_as_file_name = MythNexus
+title_as_file_name = MythWarden
 
 [display]
 width = 512
@@ -189,7 +189,7 @@ localizations = en
 custom_heap_size = 0
 heap_size = 256
 htmlfile = /builtins/manifests/web/engine_template.html
-cssfile = /web/myth_nexus.css
+cssfile = /web/myth_warden.css
 splash_image = /assets/generated/splash/web_loading.png
 archive_location_prefix = archive
 archive_location_suffix = 

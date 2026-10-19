@@ -1282,9 +1282,9 @@ Module["locateFile"] = function(path, scriptDirectory)
     // we need to replace it here with the correct project name.
     if (path == "dmengine.wasm" || path == "dmengine_release.wasm" || path == "dmengine_headless.wasm") {
         if (Module['isWASMPthreadSupported']) {
-            path = "MythNexus_pthread.wasm";
+            path = "MythWarden_pthread.wasm";
         } else {
-            path = "MythNexus.wasm";
+            path = "MythWarden.wasm";
         }
     }
     return scriptDirectory + path;
