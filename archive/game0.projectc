@@ -111,7 +111,7 @@ game_binding = /input/game.input_bindingc
 use_accelerometer = 1
 
 [sprite]
-max_count = 128
+max_count = 512
 subpixels = 1
 
 [model]
@@ -249,4 +249,7 @@ max_time_step = 0.033333
 [font]
 
 [native_extension]
+
+[gameobject]
+max_count = 2048
 
