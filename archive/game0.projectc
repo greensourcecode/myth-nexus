@@ -111,7 +111,7 @@ game_binding = /input/game.input_bindingc
 use_accelerometer = 1
 
 [sprite]
-max_count = 512
+max_count = 1536
 subpixels = 1
 
 [model]
@@ -238,7 +238,7 @@ enabled = 1
 settings = /liveupdate.settings
 
 [tilemap]
-max_count = 96
+max_count = 160
 max_tile_count = 65536
 
 [engine]
